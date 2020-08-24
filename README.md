@@ -24,7 +24,7 @@ n	result
 
 ### javascript
 
-function solution(n) {
+    function solution(n) {
     let answer = 0;
     let arr = [];
 
@@ -51,7 +51,7 @@ function solution(n) {
 
 ### java
 
-class Solution {
+      class Solution {
       public int solution(int n) {
           int answer = 0;
           
