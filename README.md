@@ -45,9 +45,8 @@ n	result
         if (arr[i] !== 0)
             answer++;
     } //0이 아닌 것들의 갯수
-    
     return answer;
-}
+    }
 
 ### java
 
