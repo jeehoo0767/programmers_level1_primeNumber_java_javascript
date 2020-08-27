@@ -28,3 +28,13 @@
         return true;
         }
     }
+### javascript
+    function solution(s) {
+        var answer = true;
+        if (s.length != 4 && s.length != 6) return false; //문자열 길이가 4또는 6이 아니면 false를 리턴
+        for (var i = 0; i < s.length; i++) {
+            if (s.charCodeAt(i) < 48 || s.charCodeAt(i) > 57)//각 인덱스 문자의 아스키코드 값이 숫자의 범위 내에 들어오는게 있다면 false를 리턴
+                return false;
+        }
+        return true; //위 조건을 만족하지 못하고 넘어 온다면 true 리턴
+        }
